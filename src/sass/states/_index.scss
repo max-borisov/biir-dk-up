@@ -1,0 +1,11 @@
+.hidden {
+  visibility: hidden;
+}
+#nav ul a.active {
+  font-family:$fontHeaderNavBold;
+}
+@media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
+  #nav ul.active {
+    height:auto;
+  }
+}

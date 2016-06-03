@@ -1,0 +1,56 @@
+.logo, #nav, .footer-info-list {
+  display: table-cell;
+  vertical-align: bottom;
+}
+.logo {
+  width:16%;
+  min-width: 125px;
+}
+#footer .holder {
+  width:91.5%;
+  margin:0 auto;
+}
+.l-holder {
+  width: 100%;
+  position: relative;
+  font-size: 0;
+  >* {
+    font-size: $fontSize;
+    display: inline-block;
+    vertical-align: top;
+    @include box-sizing(border-box);
+  }
+}
+.l-90-fl {
+  width: 90%;
+}
+.l-80-fl {
+  width: 80%;
+}
+.l-70-fl {
+  width: 70%;
+}
+.l-60-fl {
+  width: 60%;
+}
+.l-50-fl {
+  width: 50%;
+}
+.l-40-fl {
+  width: 40%;
+}
+.l-33-fl {
+  width: 33.333%;
+}
+.l-25-fl {
+  width: 25%;
+}
+.l-10-fl {
+  width: 10%;
+}
+.l-150-fx {
+  width: 150px;
+}
+.l-600-fx {
+  width: 600px;
+}

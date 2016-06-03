@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+      title BIIR - Lean Engineering | Team
+      include ./includes/meta.jade
+      script(type='text/javascript', src='js/team.render.js')
+  body
+    .wrapper
+      - var page = 'team'
+      script(type='text/javascript', src='js/team.js')
+      include ./includes/header.jade
+      section.middle
+          h2
+              | At BIIR,
+              span.blue  our people
+              |  are our strongest asset
+          p We consist of a growing multidisciplinary group of engineers, program managers and designers working together as one powerful and very flexible unit.
+          .team-box-holder
+            .team-box
+              .l-holder
+                  .l-150-fx
+                      form(action='#', method='')
+                        fieldset
+                            label(for='search-f') Search
+                            input#search-f(type='text', placeholder='Name Surname')
+                  .l-90-fl
+                      ul.team-list
+          // .team-box
+      // .middle
+    include ./includes/footer.jade

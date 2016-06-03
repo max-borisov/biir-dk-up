@@ -1,0 +1,34 @@
+doctype html
+html
+  head
+      title BIIR - Lean Engineering | About
+      include ./includes/meta.jade
+  body
+    .wrapper
+      - var page = 'about'
+      include ./includes/header.jade
+      section.middle
+          h2
+              | BIIR
+              span.blue  is LEAN engineering
+          .about-box
+              .l-holder
+                  .l-60-fl
+                      p By removing all non-value adding elements in our organization and focusing on our specialized team, we are able to consistently deliver high quality in a very competitive manner.
+                      p We help our clients reach their business goals by understanding their core values.
+                      p Since BIIR was founded in Aarhus in 2008, we have supported a range of international clients launch successful products. We consist of a multidisciplinary team of engineers, project managers and designers working together as one powerful and very flexible unit.
+              // .l-holder.about-box
+              .l-holder
+                  .l-60-fl.serif-text
+                      p
+                          strong BIIR offers superskills for hire
+                      span
+                        | Jonas Bojer
+                        br
+                        |  Founder and CEO
+                  .l-40-fl
+                      img(src='images/about-face-img.jpg', alt="Jonas Photo")
+              // .l-holder
+          // .about-box
+      // .middle
+    include ./includes/footer.jade

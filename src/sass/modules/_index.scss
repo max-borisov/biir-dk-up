@@ -1,0 +1,199 @@
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+  padding:15px 0 0;
+  position: relative;
+  overflow: hidden;
+  display: table;
+  width: 100%;
+  &:after {
+    @extend %afterClear;
+  }
+}
+#nav {
+  text-transform: uppercase;
+  font:28px $fontHeaderNav;
+  ul {
+    &:after {
+      @extend %afterClear;
+    }
+    li {
+      float: left;
+      @include box-sizing(border-box);
+      padding:0 0 0 4px;
+      width:16.66%;
+    }
+    a {
+      color: $mainColor;
+      padding-bottom: 10px;
+      position: relative;
+      text-decoration: none;
+      display: block;
+      &:after {
+        @extend %decorEl;
+        height:4px;
+        width:100%;
+        background: $addColor;
+        right: 0;
+        top: auto;
+        bottom: 0;
+        @include transition-property(height);
+        @include transition-duration(0.2s);
+        @include transition-timing-function(ease-in);
+      }
+      &.active:after,
+      &:hover:after {
+        height:7px;
+      }
+    }
+  }
+}
+.nav-toggle-btn {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  background: $addColor;
+  @include border-radius(8px);
+  width:50px;
+  height:30px;
+  padding:4px 0;
+  color: #fff;
+  display: none;
+  text-decoration: none !important;
+  cursor: pointer;
+  span {
+    display: block;
+    background: #fff;
+    width:63%;
+    height: 2px;
+    margin:6px auto;
+    @include border-radius(1px);
+  }
+}
+.logo {
+  margin: 0;
+  padding:0 8px 0 0;
+  img {
+    width:100%;
+    display: block;
+    border: none;
+  }
+}
+/* Middle
+-----------------------------------------------------------------------------*/
+.wrapper {
+  min-height: 100%;
+  @extend %wrapper-holder;
+  padding-bottom: 155px;
+  @include box-sizing(border-box);
+}
+.promo-logo-holder {
+  text-align: center;
+  padding:15% 0 0;
+  img {
+    width:500px;
+    vertical-align: top;
+  }
+}
+.middle {
+  padding: 45px 0 40px;
+  width: 91.5%;
+  margin: 0 auto;
+  >h2 {
+    margin-left: -3.5px;
+  }
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+  margin: -155px 0 0;
+  height: 155px;
+  position: relative;
+  font-size: 17px;
+  a {
+    color: #fff;
+  }
+  .footer-holder {
+    @extend %wrapper-holder;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: $addColor;
+    height: 95px;
+    position: relative;
+  }
+  .holder {
+    position: relative;
+    display: table;
+    &:before {
+      @extend %decorEl;
+      height: 10px;
+      width:100%;
+      right: 0;
+      background: #fff;
+      top: -30px;
+    }
+  }
+  .logo {
+    min-width: 105px;
+  }
+}
+.footer-info-list {
+  li {
+    @include box-sizing(border-box);
+    width:25%;
+    float: left;
+    padding:0 5px 0 0;
+    text-align: left;
+    &:first-child {
+      width:40%;
+    }
+    &:last-child {
+      width:35%;
+    }
+  }
+  &:after {
+    @extend %afterClear;
+  }
+}
+/* helper-class
+-----------------------------------------------------------------------------*/
+.blue {
+  color: $addColor;
+}
+.serif-text {
+  font:italic 13px Gerogia, "Times New Roman", serif;
+}
+.tel {
+  color: $textColor;
+  text-decoration: none;
+}
+.mark-list {
+  li {
+    margin: 0 0 10px;
+    &:before {
+      content: '-';
+      display: inline-block;
+      margin: 0 4px 0 0;
+    }
+  }
+}
+/* about page style
+-----------------------------------------------------------------------------*/
+@import "about/index.scss";
+
+/* services page style
+-----------------------------------------------------------------------------*/
+@import "services/index.scss";
+
+/* work page style
+-----------------------------------------------------------------------------*/
+@import "work/index.scss";
+
+/* team page style
+-----------------------------------------------------------------------------*/
+@import "team/index.scss";
+
+/* contact page style
+-----------------------------------------------------------------------------*/
+@import "contact/index.scss";

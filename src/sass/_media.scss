@@ -1,0 +1,218 @@
+@media only screen and (max-width: 1250px), only screen and (max-device-width: 1250px) {
+  .services-box .l-33-fl {
+    padding-right: 60px;
+  }
+  .logo {
+    width: 19%;
+  }
+  #nav ul a {
+    padding-bottom: 13px;
+  }
+  #header {
+    padding:15px $siteSidePaddings 0;
+    @include box-sizing(border-box);
+  }
+}
+@media only screen and (max-width: 1150px), only screen and (max-device-width: 1150px) {
+  #nav ul a {
+    padding-bottom: 11px;
+  }
+}
+@media only screen and (max-width: 1050px), only screen and (max-device-width: 1050px) {
+  .team-list li {
+    width: 50%;
+  }
+  #nav ul a {
+    padding-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 975px), only screen and (max-device-width: 975px) {
+  #nav {
+    font-size: 21px;
+  }
+  #nav ul a {
+    padding-bottom: 14px;
+  }
+  .footer-info-list li {
+    float: none;
+    width:100% !important;
+  }
+  .services-box .l-33-fl {
+    padding-right: 40px;
+  }
+  #nav ul a {
+    padding-bottom: 9px;
+  }
+}
+@media only screen and (max-width: 900px), only screen and (max-device-width: 900px) {
+  .work-box .l-holder {
+    margin-top: 45px;
+  }
+  .work-box .l-50-fl,
+  .work-box .l-600-fx {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+  .work-box img.l-600-fx,
+  .work-box iframe {
+    width: 600px;
+    margin: 0 auto 12px;
+    display: block;
+  }
+  .team-box {
+    display: block;
+    .l-90-fl {
+      width: 100%;
+      margin: 0 0 0 -2px;
+    }
+    .l-150-fx {
+      margin: 0 0 15px;
+      display: block;
+    }
+    .team-list {
+      margin: 0 0 0 -5px;
+      li {
+        padding: 0 5px 10px 5px;
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
+  .nav-toggle-btn {
+    display: block;
+    z-index:1;
+  }
+  #header {
+    display: block;
+    .logo {
+      position: absolute;
+      top: 15px;
+      left: 10px;
+      z-index:1;
+    }
+  }
+  #nav {
+    vertical-align: middle;
+    padding:65px 0 0;
+    display: block;
+    ul {
+      height: 0;
+      li {
+        float: none;
+        width:100%;
+        padding:0;
+        a {
+          padding-top: 14px;
+        }
+      }
+    }
+  }
+  .about-box {
+    .l-holder:first-child .l-60-fl {
+      width: 100%;
+    }
+    .l-holder:last-child {
+      margin: 0;
+      .l-40-fl img {
+        width: 100%;
+      }
+    }
+  }
+  .services-box .l-33-fl {
+    padding-right: 15px;
+  }
+}
+@media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
+  h2 {
+    font-size: 37px;
+  }
+  .promo-logo-holder img {
+    width:70%;
+  }
+  .middle,
+  #footer .holder {
+    width:93%;
+  }
+  .services-box {
+    .l-holder {
+      display: block;
+    }
+    .l-33-fl {
+      padding-right: 5px;
+      display: block;
+      width: 100%;
+      margin: 30px 0 0;
+      &:first-child {
+        margin: 0;
+        border-color: inherit;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 640px), only screen and (max-device-width: 640px) {
+  .work-box img.l-600-fx,
+  .work-box iframe {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+@media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
+  .work-box iframe {
+    height: 300px;
+  }
+  .team-box {
+    .l-150-fx {
+      width: 100%;
+    }
+    .l-90-fl {
+      margin: 0;
+    }
+    .team-list {
+      margin: 0;
+      li {
+        width: 100%;
+        padding: 0 0 10px;
+        margin: 0;
+      }
+    }
+  }
+  .team-box-holder {
+    height: 395px;
+  }
+}
+@media only screen and (max-width: 540px), only screen and (max-device-width: 540px) {
+  .work-box iframe {
+    height: 260px;
+  }
+}
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+  h2 {
+    font-size: 32px;
+  }
+  #footer {
+    font-size: 14px;
+  }
+  .work-box iframe {
+    height: 240px;
+  }
+}
+@media only screen and (max-width: 400px), only screen and (max-device-width: 400px) {
+  h2 {
+    font-size: 32px;
+  }
+  #footer {
+    font-size: 14px;
+  }
+  .work-box iframe {
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 360px), only screen and (max-device-width: 360px) {
+  .work-box iframe {
+    height: 170px;
+  }
+}

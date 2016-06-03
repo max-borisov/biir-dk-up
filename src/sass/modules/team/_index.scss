@@ -1,0 +1,45 @@
+.team-box-holder {
+  height: 800px;
+  overflow-y: scroll;
+}
+.team-box {
+  display: table;
+  padding: 20px 0 0;
+  form {
+    label {
+      display: block;
+      color: $mainColor;
+      line-height: 1.2;
+      padding: 0 0 4px;
+      text-transform: uppercase;
+      font-weight: bold;
+      border-bottom: 3px solid $addColor;
+      margin: 0 0 6px;
+    }
+  }
+  .l-150-fx,
+  .l-90-fl {
+    display: table-cell;
+  }
+  .l-150-fx {
+    min-width: 150px;
+  }
+}
+.team-list {
+  font-size: 0;
+  li {
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 0 10px 10px;
+    @include box-sizing(border-box);
+    width: 33.333%;
+    img {
+      @include box-sizing(border-box);
+      display: block;
+      border: 1px solid $mainColor;
+      width: 100%;
+      height: auto;
+    }
+  }
+}

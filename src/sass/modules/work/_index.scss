@@ -1,0 +1,30 @@
+.work-box {
+  .l-600-fx {
+    padding-right: 2%;
+  }
+  .l-50-fl {
+    padding-left: 2%;
+  }
+  .l-holder {
+    margin: 30px 0 0;
+    display: table;
+    width: 100%;
+    &:first-child {
+      margin: 0;
+    }
+  }
+  .l-600-fx,
+  .l-50-fl {
+    display: table-cell;
+    img {
+      display: block;
+    }
+  }
+  iframe {
+    width: 600px;
+    height: 338px;
+  }
+  h3 {
+    font-size: 21px;
+  }
+}
