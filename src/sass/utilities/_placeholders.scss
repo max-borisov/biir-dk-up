@@ -13,7 +13,8 @@
 %vertical-aligment {
   font-size: 0;
   >* {
-    font-size: 14px;
+    font-size: $fontSize;
+    vertical-align: middle;
   }
   &:after {
     min-height: 100%;

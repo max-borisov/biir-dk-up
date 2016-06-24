@@ -124,6 +124,19 @@
   .services-box .l-33-fl {
     padding-right: 15px;
   }
+  .job-main-desc {
+    .l-50-fl {
+      padding: 45px 0 0;
+      width:100%;
+      &:first-child {
+        padding: 0;
+      }
+    }
+  }
+  .vacancies-top-text .l-33-fl {
+    width:100%;
+    padding: 0;
+  }
 }
 @media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
   h2 {
@@ -209,6 +222,14 @@
   }
   .work-box iframe {
     height: 200px;
+  }
+  .vacancies-table .l-holder:first-child {
+    h4 {
+      font-size:12px;
+    }
+    .l-33-fl {
+      padding:10px 1px;
+    }
   }
 }
 @media only screen and (max-width: 360px), only screen and (max-device-width: 360px) {

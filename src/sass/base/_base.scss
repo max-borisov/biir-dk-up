@@ -1,4 +1,101 @@
-@import "compass/css3";
+//@import "compass/css3";
+// style reset
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+html {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+a img {
+  border: none;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+body {
+  -webkit-text-size-adjust: 100%;
+}
+input[type=submit],
+input[type=text],
+input[type=password],
+input[type=file],
+textarea {
+  -webkit-appearance: none;
+}
+textarea,
+input[type=submit],
+input[type=text] {
+  -webkit-border-radius: 0;
+}
+input[type="image"] {
+  padding: 0;
+  border: none;
+}
+img {
+  border: none;
+}
+form,
+fieldset {
+  margin: 0;
+  padding: 0;
+  border-style: none;
+}
+input, textarea, select {
+  font: 100% "Lucida Grande", arial, sans-serif;
+  vertical-align: middle;
+  color: #000;
+}
+label {
+  vertical-align: middle;
+}
+input:focus {
+  outline: none;
+}
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+img {
+  border:none;
+}
 @font-face {
   font-family:'Purista-Light';
   src: url('../fonts/Purista-Light_gdi.eot');
@@ -56,15 +153,6 @@ a {
     text-decoration: underline;
   }
 }
-strong {
-  font-weight: bold;
-}
-em {
-  font-style: italic;
-}
-img {
-  border:none;
-}
 h2 {
   font-size: 45px;
   font-weight: bold;
@@ -85,13 +173,28 @@ h4 {
 p {
   margin: 0 0 15px;
 }
-input[type="text"] {
+input[type="text"],
+input[type="submit"],
+textarea {
   width: 100%;
+  max-width: 100% !important;
   border: 1px solid #a9a9a9;
   padding: 3px 3px;
   @include box-sizing(border-box);
   line-height: 20px;
   font: $fontSize - 1px $fontMain, Arial, sans-serif;
+  &:active,
+  &:focus {
+    border-color: #22c3f2;
+  }
+}
+input[type="submit"] {
+  font-size:$fontSize + 4px;
+  width:auto;
+  padding:0 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 dl {
   overflow: hidden;

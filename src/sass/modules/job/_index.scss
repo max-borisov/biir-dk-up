@@ -1,0 +1,101 @@
+.job-main-desc {
+  h3 {
+    text-align: center;
+  }
+  .l-50-fl {
+    padding:0 0 0 15px;
+    &:first-child {
+      padding:0 15px 0 0;
+    }
+    >img {
+      max-width: 130px;
+      display: block;
+      margin:0 auto 10px;
+    }
+  }
+}
+.vacancies-top-text {
+  margin:0 0 20px;
+  overflow: hidden;
+  .l-33-fl {
+    padding:0 10px;
+  }
+}
+.vacancies-table {
+  border:1px solid #000;
+  border-width:1px 1px 0;
+  margin:0 0 30px;
+  .l-holder {
+    display: table;
+    border-collapse: collapse;
+    .l-33-fl {
+      display: table-cell;
+      padding:10px;
+      border:1px solid #000;
+      border-width:0 0 1px 1px;
+      &:first-child {
+        border-left: none;
+      }
+    }
+    &:first-child {
+      background: #22c3f2;
+      color: #fff;
+      text-align: center;
+      h4 {
+        color: #fff;
+        margin: 0;
+      }
+    }
+  }
+}
+#popup-holder {
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index:100;
+  text-align: center;
+  display: none;
+  @extend %vertical-aligment;
+}
+.close-popup {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  @include border-radius(15px);
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size:$fontSize+4px;
+  &:hover {
+    text-decoration: none;
+    @include box-shadow(inset 0 0 4px #22c3f2);
+    border-color: #22c3f2;
+    color: #22c3f2;
+  }
+}
+.popup {
+  position: relative;
+  background: #fff;
+  max-width: 600px;
+  min-width:300px;
+  padding:15px;
+  @include box-shadow(0 0 11px #22c3f2);
+  @include border-radius(10px);
+  display: inline-block;
+  input[type="text"], textarea {
+    width:100% !important;
+    max-width: 100% !important;
+    height:28px;
+    font-size:$fontSize + 2px;
+    line-height:$fontSize + 6px;
+  }
+  textarea {
+    height: 100px;
+  }
+}
