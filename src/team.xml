@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<BiirTeam>
+  <Employee id="jbc">
+    <fname>Jonas Bojer</fname>
+    <sname>Christensen</sname>
+    <image>Jonas Bojer Christensen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="alp">
+    <fname>Aleksey</fname>
+    <sname>Pashentlev</sname>
+    <image>Aleksey Pashentlev.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="ash">
+    <fname>Alexandr</fname>
+    <sname>Shapoval</sname>
+    <image>Alexandr Shapoval.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="ant">
+    <fname>Andrey</fname>
+    <sname>Tanchenko</sname>
+    <image>Andrey Tanchenko.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="aia">
+    <fname>Andrii</fname>
+    <sname>Iakymovych</sname>
+    <image>Andrii Iakymovych.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="ang">
+    <fname>Anna</fname>
+    <sname>Golieva</sname>
+    <image>Anna Golieva.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Electrical</Skill>
+  </Employee>
+
+  <Employee id="afk">
+    <fname>Annette</fname>
+    <sname>Kjærgaard</sname>
+    <image>Annette Kjærgaard.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="aku">
+    <fname>Artem</fname>
+    <sname>Kuchko</sname>
+    <image>Artem Kuchko.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="bke">
+    <fname>Benny Kolbeck</fname>
+    <sname>Ensted</sname>
+    <image>Benny Kolbeck Ensted.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="bbk">
+    <fname>Bjarke Bertel</fname>
+    <sname>Krarup</sname>
+    <image>Bjarke Bertel Krarup.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechatronics</Skill>
+  </Employee>
+  <Employee id="bhj">
+    <fname>Bjarke Harbo</fname>
+    <sname>Jakobsen</sname>
+    <image>Bjarke Harbo Jakobsen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechatronics</Skill>
+  </Employee>
+  <Employee id="cmn">
+    <fname>Christian Mark</fname>
+    <sname>Nielsen</sname>
+    <image>Christian Mark Nielsen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="cmu">
+    <fname>Christian</fname>
+    <sname>Munk</sname>
+    <image>Christian Munk.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="cbu">
+    <fname>Claus</fname>
+    <sname>Burchardt</sname>
+    <image>Claus Burchardt.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="ddh">
+    <fname>Dennis Damborg</fname>
+    <sname>Hansen</sname>
+    <image>Dennis Damborg Hansen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+
+  </Employee>
+  <Employee id="dll">
+    <fname>Dennis Lykke</fname>
+    <sname>Larsen</sname>
+    <image>Dennis Lykke Larsen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="dko">
+    <fname>Denys</fname>
+    <sname>Kotushenko</sname>
+    <image>Denys Kotushenko.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="dia">
+    <fname>Dinara</fname>
+    <sname>Akzhygitova</sname>
+    <image>Dinara Akzhygitova.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Administration</Skill>
+
+  </Employee>
+  <Employee id="dts">
+    <fname>Dmitry</fname>
+    <sname>Tsurkan</sname>
+    <image>Dmitry Tsurkan.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+
+  </Employee>
+  <Employee id="dsa">
+    <fname>Dmytro</fname>
+    <sname>Sava</sname>
+    <image>Dmytro Sava.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="eei">
+    <fname>Esben Eskerod</fname>
+    <sname>Ifversen</sname>
+    <image>Esben Eskerod Ifversen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+
+  </Employee>
+  <Employee id="eok">
+    <fname>Esben Østergaard</fname>
+    <sname>Kjeldsen</sname>
+    <image>Esben Østergaard Kjeldsen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="epl">
+    <fname>Eugene</fname>
+    <sname>Plokhotnyk</sname>
+    <image>Eugene Plokhotnyk.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+
+  </Employee>
+  <Employee id="fbh">
+    <fname>Flemming Balle</fname>
+    <sname>Hansen</sname>
+    <image>Flemming Balle Hansen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="hdr">
+    <fname>Henrik Doering Damm</fname>
+    <sname>Reuther</sname>
+    <image>Henrik Doering Damm Reuther.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+
+  </Employee>
+  <Employee id="hel">
+    <fname>Henrik</fname>
+    <sname>Løvschal</sname>
+    <image>Henrik Løvschal.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+
+  </Employee>
+  <Employee id="hej">
+    <fname>Henrik Riis</fname>
+    <sname>Jacobsen</sname>
+    <image>Henrik Riis Jacobsen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+
+  </Employee>
+  <Employee id="hsk">
+    <fname>Henrik Svenstrup</fname>
+    <sname>Kristensen</sname>
+    <image>Henrik Svenstrup Kristensen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+
+  </Employee>
+  <Employee id="hts">
+    <fname>Henrik Timm</fname>
+    <sname>Sørensen</sname>
+    <image>Henrik Timm Sørensen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="ipd">
+    <fname>Iben Høiris</fname>
+    <sname>Overgaard</sname>
+    <image>Iben Høiris Overgaard.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="iep">
+    <fname>Ievgen</fname>
+    <sname>Peleshko</sname>
+    <image>Ievgen Peleshko.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="ine">
+    <fname>Igor</fname>
+    <sname>Nepran</sname>
+    <image>Igor Nepran.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="iri">
+    <fname>Igor</fname>
+    <sname>Riva</sname>
+    <image>Igor Riva.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="ibi">
+    <fname>Iryna</fname>
+    <sname>Belokopitova</sname>
+    <image>Iryna Bilokopytova.png</image>
+  	<Skill>Electrical</Skill>
+    <Skill>High voltage</Skill>
+    <Skill>Medium Voltage</Skill>
+    <Skill>AutoCAD</Skill>
+    <Skill>Substations</Skill>
+    <Skill>HV, MV Switchgears</Skill>
+ </Employee>
+  <Employee id="ich">
+    <fname>Iryna</fname>
+    <sname>Chernenko</sname>
+    <image>Iryna Chernenko.png</image>
+    <Skill>Not set</Skill>
+    <Skill>administration</Skill>
+
+  </Employee>
+  <Employee id="iza">
+    <fname>Iurii</fname>
+    <sname>Zaitsev</sname>
+    <image>Iurii Zaitsev.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="ivy">
+    <fname>Ivan</fname>
+    <sname>Yermak</sname>
+    <image>Ivan Yermak.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+
+  <Employee id="jah">
+    <fname>Jan</fname>
+    <sname>Hornbech</sname>
+    <image>Jan Hornbech.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+
+  </Employee>
+  <Employee id="jai">
+    <fname>Jan</fname>
+    <sname>Ipsen</sname>
+    <image>Jan Ipsen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+
+  </Employee>
+  <Employee id="jmn">
+    <fname>Jan Magnus</fname>
+    <sname>Nielsen</sname>
+    <image>Jan Magnus Nielsen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+
+  <Employee id="jol">
+    <fname>Jann</fname>
+    <sname>Olesen</sname>
+    <image>Jann Olesen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+
+
+  <Employee id="jjt">
+    <fname>Jens Jacob</fname>
+    <sname>Troensegaard</sname>
+    <image>Jens Jacob Troensegaard.png</image>
+    <Skill>Not set</Skill>
+    <Skill>administration</Skill>
+  </Employee>
+  <Employee id="jmm">
+    <fname>Jeppe Mølbach</fname>
+    <sname>Mortensen</sname>
+    <image>Jeppe Mølbach Mortensen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="jbe">
+    <fname>John</fname>
+    <sname>Bech</sname>
+    <image>John Bech.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="jkg">
+    <fname>John Keldgaard</fname>
+    <sname>Grevsen</sname>
+    <image>John Keldgaard Grevsen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="jbj">
+    <fname>Jonas Bilberg</fname>
+    <sname>Juhl</sname>
+    <image>Jonas Bilberg Juhl.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="kam">
+    <fname>Kasper</fname>
+    <sname>Møberg</sname>
+    <image>Kasper Møberg.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="kem">
+    <fname>Katrine Elsig</fname>
+    <sname>Mortensen</sname>
+    <image>Katrine Elsig Mortensen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="kel">
+    <fname>Kenneth Erik</fname>
+    <sname>Lauritzen</sname>
+    <image>Kenneth Erik Lauritzen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="kot">
+    <fname>Konstiantyn</fname>
+    <sname>Trunin</sname>
+    <image>Konstiantyn Trunin.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="lch">
+    <fname>Lars Chopart</fname>
+    <sname>Høy</sname>
+    <image>Lars Høy.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="lkl">
+    <fname>Lars Kjærgård</fname>
+    <sname>Kjærgaard Lorentzen</sname>
+    <image>Lars Kjærgaard Lorentzen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="llt">
+    <fname>Lars Lund</fname>
+    <sname>Thomsen</sname>
+    <image>Lars Lund Thomsen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="lvk">
+    <fname>Lars Vinther</fname>
+    <sname>Kappel</sname>
+    <image>Lars Vinther Kappel.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="lvk">
+    <fname>Leif</fname>
+    <sname>Borup Hansen</sname>
+    <image>Leif Borup Hansen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="lel">
+    <fname>Lene</fname>
+    <sname>Læsøe</sname>
+    <image>Lene Læsøe.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="lin">
+    <fname>Lilian</fname>
+    <sname>Nielsen</sname>
+    <image>Lilian Nielsen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="mbo">
+    <fname>Mads Beck</fname>
+    <sname>Olsen</sname>
+    <image>Mads Beck Olsen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="mba">
+    <fname>Malene Bartens</fname>
+    <sname>Malene Bartens</sname>
+    <image>Malene Bartens.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="maj">
+    <fname>Martin</fname>
+    <sname>Jerga</sname>
+    <image>Martin Jerga.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="mkn">
+    <fname>Martin Kjærgård</fname>
+    <sname>Nielsen</sname>
+    <image>Martin Kjærgård Nielsen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="mev">
+    <fname>Mette Vestergaard</fname>
+    <sname>Christensen</sname>
+    <image>Mette Vestergaard Christensen.png</image>
+    <Skill>Not set</Skill>
+	<Skill>Industrial Design</Skill>
+	<Skill>3D Modeling</Skill>
+  </Employee>
+  <Employee id="mhr">
+    <fname>Michael Hjort</fname>
+    <sname>Rasmussen</sname>
+    <image>Michael Hjort Rasmussen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="mmt">
+    <fname>Morten</fname>
+    <sname>Mørkholt</sname>
+    <image>Morten Mørkholt.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="nom">
+    <fname>Nermin</fname>
+    <sname>Omerovic</sname>
+    <image>Nermin Omerovic.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="nls">
+    <fname>Nicole Lajgaard</fname>
+    <sname>Solgaard</sname>
+    <image>Nicole Lajgaard Solgaard.png</image>
+    <Skill>Not set</Skill>
+    <Skill>administration</Skill>
+  </Employee>
+
+  <Employee id="okr">
+    <fname>Ole</fname>
+    <sname>Krarup</sname>
+    <image>Ole Krarup.png</image>
+	  <Skill>Electrical</Skill>
+	  <Skill>Project Management</Skill>
+	  <Skill>Electrical</Skill>
+	  <Skill>SW</Skill>
+	  <Skill>Software</Skill>
+	  <Skill>Software architecture</Skill>
+	  <Skill>UML</Skill>
+	  <Skill>Excel</Skill>
+	  <Skill>Visual Basic</Skill>
+	  <Skill>ANSI C</Skill>
+	  <Skill>C++</Skill>
+	  <Skill>C#</Skill>
+	  <Skill>ASPX</Skill>
+	  <Skill>MySQL</Skill>
+	  <Skill>MsSQL</Skill>
+	  <Skill>Realtime</Skill>
+	  <Skill>Parallel</Skill>
+	  <Skill>svn</Skill>
+	  <Skill>RDS-PP</Skill>
+  </Employee>
+  <Employee id="zol">
+    <fname>Oleksandr</fname>
+    <sname>Zagnoi</sname>
+    <image>Oleksandr Zagnoi.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="oto">
+    <fname>Oleksii</fname>
+    <sname>Tolochko</sname>
+    <image>Oleksii Tolochko.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="oki">
+    <fname>Olga</fname>
+    <sname>Kii</sname>
+    <image>Olga Kii.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="ola">
+    <fname>Olga</fname>
+    <sname>Latysh</sname>
+    <image>Olga Latysh.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="pkr">
+    <fname>Per</fname>
+    <sname>Krarup</sname>
+    <image>Per Krarup.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="psh">
+    <fname>Peter Skov</fname>
+    <sname>Hansen</sname>
+    <image>Peter Skov Hansen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="pnn">
+    <fname>Pezhman</fname>
+    <sname>Nakhost</sname>
+    <image>Pezhman Nakhost.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Electrical</Skill>
+  </Employee>
+  <Employee id="rho">
+    <fname>Rasmus</fname>
+    <sname>Hovgaard</sname>
+    <image>Rasmus Hovgaard.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="rsj">
+    <fname>Rasmus Sanderhoff</fname>
+    <sname>Johansen</sname>
+    <image>Rasmus Sanderhoff Johansen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="rej">
+    <fname>Rene Sloth</fname>
+    <sname>Jensen</sname>
+    <image>Rene Sloth Jensen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="raa">
+    <fname>Ricco</fname>
+    <sname>Aagaard</sname>
+    <image>Ricco Aagaard.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Electrical</Skill>
+  </Employee>
+  <Employee id="seg">
+    <fname>Sergii</fname>
+    <sname>Grytsan</sname>
+    <image>Sergii Grytsan.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="skh">
+    <fname>Sergii</fname>
+    <sname>Khalchenko</sname>
+    <image>Sergii Khalchenko.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+  <Employee id="sem">
+    <fname>Stefan</fname>
+    <sname>Møberg</sname>
+    <image>Stefan Møberg.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="soe">
+    <fname>Svend Ove</fname>
+    <sname>Edemann</sname>
+    <image>Svend Ove Edemann.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+
+  <Employee id="sgt">
+    <fname>Søren Grandjean</fname>
+    <sname>Thrane</sname>
+    <image>Søren Grandjean Thrane.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="tas">
+    <fname>Thomas</fname>
+    <sname>Astrup</sname>
+    <image>Thomas Astrup.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+
+  <Employee id="tov">
+    <fname>Thomas Overgaard</fname>
+    <sname>Jørgensen</sname>
+    <image>Thomas Overgaard Joergensen.png</image>
+    <Skill>Not set</Skill>
+	<Skill>Industrial Design</Skill>
+	<Skill>3D Modeling</Skill>
+  </Employee>
+
+  <Employee id="tvj">
+    <fname>Troels Vilsgaard</fname>
+    <sname>Jakobsen</sname>
+    <image>Troels Vilsgaard Jakobsen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="vik">
+    <fname>Viacheslav</fname>
+    <sname>Korniienko</sname>
+    <image>Viacheslav Korniienko.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="vis">
+    <fname>Vitaliy</fname>
+    <sname>Smirnov</sname>
+    <image>Vitaliy Smirnov.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="vom">
+    <fname>Volodymyr</fname>
+    <sname>Maksymiuk</sname>
+    <image>Volodymyr Maksymiuk.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="yde">
+    <fname>Yevhenii</fname>
+    <sname>Davydenko</sname>
+    <image>Yevhenii Davydenko.png</image>
+    <Skill>Not set</Skill>
+    <Skill>Mechanical</Skill>
+  </Employee>
+
+  <Employee id="ts">
+    <fname>Thomas</fname>
+    <sname>Sillesen</sname>
+    <image>Thomas Sillesen.png</image>
+    <Skill>Not set</Skill>
+    <Skill>administration</Skill>
+  </Employee>
+</BiirTeam>

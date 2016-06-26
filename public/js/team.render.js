@@ -1,7 +1,7 @@
 // 'use strict';
 
 $(function() {
-  var team = teamJSON.BiirTeam.Employee;
+  var team = consultants_json;
   var teamBox = $('.team-box .team-list');
   renderTeam(team, teamBox);
 
@@ -25,10 +25,9 @@ function searchTeamMembers(team, name) {
 
 function renderTeam(team, teamBox) {
   var image, alt;
-  employees = team.map(function(employee) {
-    image = employee.image.replace(/\s/g, '-');
-    alt = employee.fname + ' ' + employee.sname;
-    return '<li><img src="images/faces/' + image + '" alt="' + alt + '" /></li>';
+  var consultants = team.map(function(consultant) {
+    return '<li><img src="images/faces/' + consultant.image + '" \
+    alt="' + consultant.name + '" title="' + consultant.name + '" /></li>';
   }).join('');
-  teamBox.html(employees);
+  teamBox.html(consultants);
 }

@@ -16,7 +16,10 @@
     "build-compass": "compass compile",
     "watch-jade": "jade src/templates/ --watch --pretty --out public/",
     "watch": "npm run watch-compass & npm run watch-jade",
-    "build": "npm run build-compass & npm run build-jade"
+    "build": "npm run build-compass & npm run build-jade",
+    "compass": "compass compile",
+    "images-to-json": "node src/converter.js"
+
   },
   "repository": {
     "type": "git",
