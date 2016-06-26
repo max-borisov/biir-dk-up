@@ -1,14 +1,14 @@
 // 'use strict';
 
 $(function() {
-  var team = consultants_json;
+  var consultants = consultants_json;
   var teamBox = $('.team-box .team-list');
-  renderTeam(team, teamBox);
+  renderTeam(consultants, teamBox);
 
   $('#search-f').keyup(function() {
     var name = this.value.trim();
     if (!name) return;
-    searchTeam = searchTeamMembers(team, name);
+    searchTeam = searchTeamMembers(consultants, name);
     renderTeam(searchTeam, teamBox);
   });
 })
@@ -18,7 +18,8 @@ function searchTeamMembers(team, name) {
   searchName = name;
   var fullName = '';
   return team.filter(function (item) {
-    fullName = item.fname + ' ' + item.sname;
+    // fullName = item.fname + ' ' + item.sname;
+    fullName = item.name;
     return fullName.search(new RegExp(searchName, 'i')) >= 0
   })
 }
