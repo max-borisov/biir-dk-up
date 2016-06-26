@@ -388,16 +388,12 @@ var consultants_json = [
         "image": "Ricco Aagaard.png"
     },
     {
-        "name": "Sergii  Khalchenko",
-        "image": "Sergii  Khalchenko.png"
+        "name": "Sergii  Kotenko",
+        "image": "Sergii  Kotenko.png"
     },
     {
         "name": "Sergii Grytsan",
         "image": "Sergii Grytsan.png"
-    },
-    {
-        "name": "Sergii Khalchenko",
-        "image": "Sergii Khalchenko.png"
     },
     {
         "name": "Stefan Møberg",
