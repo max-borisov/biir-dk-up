@@ -1,8 +1,8 @@
 $(function() {
-  $.get('http://cv.biir.dk/jobs/' + jobs_lang, function(jobs) {
-    if (jobs.length > 0) {
+  $.get('http://cv.biir.dk/jobs/' + jobs_lang, function(responce) {
+    if (responce.jobs && responce.jobs.length > 0) {
       var vacancies = '<div class="vacancies-table">{vacancies}</div>';
-      var jobs_list = jobs.map(function(job) {
+      var jobs_list = responce.jobs.map(function(job) {
         return job_block_template()
           .replace('{title}', job['title'].replace(/\n/g, '<br />'))
           .replace('{description}', job['description'].replace(/\n/g, '<br />'))
