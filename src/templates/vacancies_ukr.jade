@@ -1,0 +1,51 @@
+doctype html
+html
+  head
+      title BIIR - Lean Engineering | Job
+      include ./includes/meta.jade
+      script(type='text/javascript', src='js/jobs.js')
+      script var jobs_lang = 'ukr';
+  body
+    .wrapper
+      - var page = 'job'
+      include ./includes/header.jade
+      section.middle
+          h2.text-center
+            | Vacansies
+            br
+            span.blue  In Ukraine
+          .l-holder.vacancies-top-text
+              .l-33-fl
+                  h3 What is Lorem Ipsum?
+                  p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              .l-33-fl
+                  h3 Why do we use it?
+                  p It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+              .l-33-fl
+                  h3 Where does it come from?
+                  p Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+          // .l-holder
+          .vacancies-container
+          //.vacancies-table
+          ul.btn-holder
+              li
+                  //- a.btn.open-popup(href='#') Write us
+
+      // .middle
+    include ./includes/footer.jade
+    #popup-holder
+        .popup
+            a.close-popup(href='#') X
+            form(action='#')
+                filedset
+                    .form-row
+                        input(type='text', name='name', placeholder='Name')
+                    .form-row
+                        input(type='text', name='email', placeholder='E-mail')
+                    .form-row
+                        input(type='text', name='phone', placeholder='Phone')
+                    .form-row
+                        textarea(name='message', id='', cols='30', rows='10', placeholder='Message')
+                    .form-row
+                        input(type='submit', value='Send').btn
+    // #popup-holder

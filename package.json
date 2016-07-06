@@ -11,15 +11,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-scss": "scss src/sass/style.scss:public/css/style.css",
     "build-jade": "jade src/templates/ --pretty --out public/",
-    "watch-scss": "scss --watch src/scss/app.scss:public/css/app.css",
-    "watch-compass": "compass watch",
-    "build-compass": "compass compile",
+    "watch-scss": "scss --watch src/sass/style.scss:public/css/style.css",
     "watch-jade": "jade src/templates/ --watch --pretty --out public/",
-    "watch": "npm run watch-compass & npm run watch-jade",
-    "build": "npm run build-compass & npm run build-jade",
-    "compass": "compass compile",
+    "watch": "npm run watch-scss & npm run watch-jade",
+    "build": "npm run build-scss & npm run build-jade",
     "images-to-json": "node src/converter.js"
-
   },
   "repository": {
     "type": "git",
