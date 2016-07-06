@@ -8,26 +8,65 @@ html
       - var page = 'job'
       include ./includes/header.jade
       section.middle
-          h2
-              | Interested in
-              span.blue  joining BIIR?
-          ul.mark-list
-              li
-                  a(href='pdf/Biir_Job_april_2015.pdf', target='_blank') Joining BIIR
-              li
-                  a(href='pdf/Biir_Ledige_stillinger.pdf' , target='_blank') Multiple vacancies
-              li
-                  a(href='pdf/HV_engineer_2015.pdf' , target='_blank') High voltage engineer
-              li
-                  a(href='pdf/LV_engineer_2015.pdf' , target='_blank') Low voltage engineer
-          // .mark-list
-          br
-          br
-          br
-          br
-          p Info on how to apply is included in the job description.
-          br
-          br
-          br
+          //- h2.text-center
+          //-     | Vacancies
+          .l-holder.job-main-desc
+              .l-50-fl
+                  img(src='images/dnm-flag.gif', alt="denmark flag")
+                  h3 Denmark
+                  p
+                    strong BIIR - et konsulenthus med en holdning
+                    br
+                    br
+                    | BIIR er en virksomhed, hvor vi har tillid til hinandens kompetencer, respekt for kollegenes dømmekraft og sætter det værdifulde arbejdsliv øverst.
+                    br
+                    br
+                    | Lyder det som en kliche – måske, men så skulle du måske møde os.
+                    br
+                    br
+                    | Vi tror på, at vi som ansvarlige kollegaer kan have en virksomhed uden ledere, procedurer og regler – og derfor fungere, ansvarligt og fleksibelt hos kunderne, i virksomheden og hjemme hos familien.
+                    br
+                    br
+                    | BIIR er et ingeniørhus med kompetencer i særklasse inden for vind, olie og gas, energi, design og software.
+                    br
+                    br
+                    | Vi er knap 200 fastansatte ingeniører – og vi bliver stadig flere. Nørdede specialister, dygtige projektledere og erfarne konstruktører – og så alle os andre.
+                    br
+                    br
+                    strong BIIR – let’s work together
+                  ul.btn-holder
+                      li
+                        //- a.btn(href='#') Unsolicited
+                      li
+                        a.btn(href='vacancies_dk.html') Vacancies
+              .l-50-fl
+                  img(src='images/ukr-flag.gif', alt="ukraine flag")
+                  h3 Ukraine
+                  p
+                      strong BIIR - A consulting firm with values
+                      br
+                      br
+                      | BIIR is a company where we have confidence in each other's skills, trust our colleagues' judgment and a valuable working life as a top priority.
+                      br
+                      br
+                      | Does that sound like a cliché - maybe, but then you should meet us.
+                      br
+                      br
+                      | Being responsible colleagues, we believe  that we can run a business without managers, procedures and rules - by doing so, we will be able to perform optimally, responsibly and flexibly towards our clients, the company and our family.
+                      br
+                      br
+                      | BIIR is a consulting firm with expertise second to none within wind, oil and gas, energy, design and software.
+                      br
+                      br
+                      | We have over 200 employed engineers - and the figure is rising. Nerd specialists, skilled project managers and experienced engineers - and then the rest of us.
+                      br
+                      br
+                      strong BIIR – let’s work together
+                  ul.btn-holder
+                      li
+                        //- a.btn(href='#') Unsolicited
+                      li
+                        a.btn(href='vacancies_ukr.html') Vacancies
+          // .l-holder
       // .middle
     include ./includes/footer.jade

@@ -1,0 +1,33 @@
+doctype html
+html
+  head
+      title BIIR - Lean Engineering | Job
+      include ./includes/meta.jade
+  body
+    .wrapper
+      - var page = 'job'
+      include ./includes/header.jade
+      section.middle
+          h2
+              | Interested in
+              span.blue  joining BIIR?
+          ul.mark-list
+              li
+                  a(href='pdf/Biir_Job_april_2015.pdf', target='_blank') Joining BIIR
+              li
+                  a(href='pdf/Biir_Ledige_stillinger.pdf' , target='_blank') Multiple vacancies
+              li
+                  a(href='pdf/HV_engineer_2015.pdf' , target='_blank') High voltage engineer
+              li
+                  a(href='pdf/LV_engineer_2015.pdf' , target='_blank') Low voltage engineer
+          // .mark-list
+          br
+          br
+          br
+          br
+          p Info on how to apply is included in the job description.
+          br
+          br
+          br
+      // .middle
+    include ./includes/footer.jade
