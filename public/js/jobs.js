@@ -1,5 +1,5 @@
 $(function() {
-  $.get('http://cv.biir.dk/jobs/' + jobs_lang, function(responce) {
+  $.get('http://cv.biir.dk/biir/jobs/' + jobs_lang, function(responce) {
     if (responce.jobs && responce.jobs.length > 0) {
       var vacancies = '<div class="vacancies-table">{vacancies}</div>';
       var jobs_list = responce.jobs.map(function(job) {
